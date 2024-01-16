@@ -50,7 +50,7 @@ void writeFromStructure(Student* s,int x) {
 }
 int main() {
 	int noRows = 0;
-	Student *students;
+	Student *students=NULL;
 	noRows = readNorowsInFile();
 	students =(Student*)malloc(sizeof(Student)*noRows);
 	readFromFile(students);
@@ -58,6 +58,6 @@ int main() {
 
 	
 	
-
+	free(students);
 	return 0;
 }

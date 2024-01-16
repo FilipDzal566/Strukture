@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FileName.c" />
+    <ClCompile Include="vj5.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="dat.txt" />
